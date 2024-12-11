@@ -25,10 +25,7 @@ public class InMemoryDB {
     }
 
     public Integer get(String key) {
-        //check if transaction in progress and if HashMap contains given key
-        if(transactionState != null && transactionState.containsKey(key)) {
-            return transactionState.get(key);
-        }
+        //can be called anytime, no need to check transactionState
         //if key can't be found return null
         return mainState.getOrDefault(key, null); //finds key, if no key found returns null
     }
