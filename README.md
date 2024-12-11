@@ -40,5 +40,5 @@ Edit main.java, ensure you recompile before running `java main` again!
 Improvements:  
 This assignment is a great way to test everything we've learned this semester with creating a github repo, adding/committing to it, and testing code.  
 If this assignment were to become an official assignment consider adding the following:  
-    - Implement a delete(key) method to remove key-value pairs from the database (should only perform operations on mainState)
+    - Implement a delete(key) method to remove key-value pairs from the database (should only perform operations on mainState)  
     - Provide more test scenarios or require the creation of additional test units
